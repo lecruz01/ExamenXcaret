@@ -1,0 +1,146 @@
+body {
+	font-family: 'Exo 2', sans-serif !important;
+	background-color: #EEE !important;
+	width: 94%;
+	margin-left: 3%;
+    text-rendering: optimizeSpeed;
+}
+
+main {
+    background-color: #FFF;
+    padding: 20px 0 20px 0;
+}
+	
+/* Estilos para la barra de navegación superior */
+nav {
+	height: 40px !important;
+	line-height: 40px !important;
+}
+
+nav ul {
+	margin-right: 12%;
+}
+
+nav a {
+	font-size: 12px !important;
+}
+
+nav a i {
+	line-height: 40px !important;
+}
+/* Fin de estilos para barra de navegación superior */
+
+/* Estilos para la barra de navegación secundaria */
+#sub-navbar {
+	background-color: none !important;
+	display: block;
+}
+
+#sub-navbar ul{
+	display: table;
+}
+
+#sub-navbar ul li{
+	background-color: #FFF !important;
+	display: table-cell;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	height: 50px;
+}
+
+
+#sub-navbar ul li:hover {
+	background-color: #000 !important;
+}
+
+#sub-navbar ul li:hover a {
+	color: #FFF !important;
+}
+
+#sub-navbar ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#sub-navbar ul li:first-child {
+	background-color: #000 !important;
+}
+
+#sub-navbar ul li:first-child::after {
+	content: '';
+    border-left: 15px solid #000;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: relative;
+    top: -35px;
+    right: -100%;
+}
+
+#sub-navbar ul li:last-child {
+	border-right: 1px solid #000;
+}
+/* Fin de estilos para barra de navegación secundaria */
+
+/* Estilos para la barra de navegación social */
+#row-ex-nav {
+	height: 90px !important;
+	vertical-align: middle;
+}
+
+#extra-nav {
+	display: table;
+	width: 100%;
+}
+
+#extra-nav li {
+	display: table-cell;
+}
+
+#extra-nav li .grey-text {
+	font-size: 10px !important;
+}
+/* Fin de estilos para barra de navegación social */
+
+/* Estilos para footer */
+footer {
+	background-color: #222 !important;
+}
+
+.footer-copyright {
+	background-color: #000 !important;
+}
+
+/* Fin de estilos para footer */
+
+/* Estilos adicionales */
+.tag {
+	border: 1px solid #FFF;
+	padding: 2px 10px 2px 10px;
+	border-radius: 10px;
+}
+
+.logo {
+	margin-bottom: 0;
+}
+
+#pagos {
+	border: 1px solid #000;
+	padding: 20px 30px 0px 30px;
+}
+
+#pagos img {
+	max-width: 100%;
+}
+
+#description {
+	text-align: justify;
+}
+
+.bordered {
+	border: 1px solid #000 !important;
+	border-radius: 10px;
+}
